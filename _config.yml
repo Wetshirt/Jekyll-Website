@@ -27,10 +27,18 @@ url: "https://wetshirt.github.io" # the base hostname & protocol for your site, 
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
+# Header pages
+header_pages:
+  - about.md
+  - post.md
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+# Color
+color: cyan
 
 # Exclude from processing.
 # The following items will not be processed, by default.

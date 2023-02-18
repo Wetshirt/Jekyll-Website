@@ -1,0 +1,19 @@
+title: Résumé
+name: LUO,SHENG-RU
+jobtitle: 
+contact:
+  - icon: fa-envelope
+    text: sam9310505@gmail.com
+  - icon: fa-globe
+    text: website
+    link: https://wetshirt.github.io/Jekyll-Website
+  - icon: fa-github
+    text: wetshirt
+    link: https://github.com/Wetshirt
+education:
+  - university: National Taipei University of Technology
+    duration: Sep 2020 - Sep 2022
+    major: Computer Science and Information Engineering
+  - university: Fu Jen Catholic University
+    duration: Sep 2016 - Jun 2020
+    major: Computer Science and Information Engineering
