@@ -31,11 +31,13 @@ url: "https://wetshirt.github.io" # the base hostname & protocol for your site, 
 header_pages:
   - about.md
   - post.md
+  - todo.md
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
 
 # Color
 color: cyan
