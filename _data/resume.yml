@@ -17,3 +17,13 @@ education:
   - university: Fu Jen Catholic University
     duration: Sep 2016 - Jun 2020
     major: Computer Science and Information Engineering
+
+experience:
+  - title: "Researcher"
+    duration: "Feb 2023 -"
+    company: "Chunghwa Telecom laboratories"
+    description: "newcomer traning."
+  - title: "Intern"
+    duration: Feb 2020 - Jun 2020"
+    company: "FUBON LIFE ASSURANCE CO.,LTD"
+    description: "maintain backend service system with java and spring framework for business."
