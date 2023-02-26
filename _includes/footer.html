@@ -1,0 +1,34 @@
+<script src="https://kit.fontawesome.com/afe82c8a65.js" crossorigin="anonymous"></script>
+<footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+    <!-- <div class="wrapper">
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col">
+                {%- if site.author %}
+                    <ul class="contact-list">
+                {% if site.author.name -%}
+                    <li class="p-name">{{ site.author.name | escape }}</li>
+                {% endif -%}
+                {% if site.author.email -%}
+                    <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+                {%- endif %}
+                    </ul>
+                {%- endif %}
+            </div>
+
+            <div class="footer-col">
+                <p>{{ site.description | escape }}</p>
+            </div>
+        </div>
+
+
+    </div> -->
+    <p>{{ site.description | escape }}</p>
+    <ul class="social-icons">
+        <li><a class="email" href="mailto:sam9310505@gmail.com"><i class="fa fa-envelope"></i></a></li>
+        <li><a class="github" href="https://github.com/Wetshirt"><i class="fa fa-github"></i></a></li>
+    </ul>
+
+</footer>

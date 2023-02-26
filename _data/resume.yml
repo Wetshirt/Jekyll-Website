@@ -8,7 +8,7 @@ contact:
     text: website
     link: https://wetshirt.github.io/Jekyll-Website
   - icon: fa-github
-    text: wetshirt
+    text: github
     link: https://github.com/Wetshirt
 education:
   - university: National Taipei University of Technology

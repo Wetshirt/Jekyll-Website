@@ -7,7 +7,7 @@ layout: default
 
 <!-- home page image -->
 <img src="assets/image/profile.jpg"
-     title="profile">
+     title="profile" height = "75%" width = "75%" style="display:block; margin:auto;">
 
 <!-- home page image description -->
 <p align="center">Genetated with Stable Diffusion 2.1 on 
