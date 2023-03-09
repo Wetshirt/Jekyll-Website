@@ -34,7 +34,7 @@ url: "https://wetshirt.github.io" # the base hostname & protocol for your site, 
 # Header pages
 header_pages:
   - about.md
-  - post.md
+  - post_home.md
   - todo.md
 
 # Build settings

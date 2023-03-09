@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "a75546366477790b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6c7eae9adda83fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff5314e9019b1ec7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-02-16-Jekyll架設指令.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b1bc824f90109759",
+    "type": "split",
+    "children": [
+      {
+        "id": "6dee6f1c39483f5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "145821715d3178f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "607dc30d25c3843c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8638f7c576ce41f9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b0fe43c1fa47e2eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "631a2363f9bab6bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd621f5944de7939",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2023-02-16-Jekyll架設指令.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ac735509d1bd7921",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2023-02-16-Jekyll架設指令.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "085cd8a2cab017f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b1d8e02fcf508bdd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2023-02-16-Jekyll架設指令.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "ff5314e9019b1ec7",
+  "lastOpenFiles": [
+    "2023-02-16-Jekyll新增Post.md",
+    "2023-02-25-Stable Diffusion webUI 安裝.md",
+    "2023-02-16-Jekyll架設指令.md"
+  ]
+}
