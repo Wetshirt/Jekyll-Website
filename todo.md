@@ -11,8 +11,9 @@ permalink: /todo/
 ---
 ### 施工項目
 
-- :x: 修改網站的背景
-- :x: 首頁加入一些動畫
+- :heavy_check_mark: 修改網站的背景
+- :heavy_check_mark: 首頁加入live2D
 - :heavy_check_mark: 更新Resume
-- :x: 新增一個專門放leetcode的category
-
+- :x: 新增一個放leetcode的category
+- :x: categories文章改成Doc Style
+- :x: obisidian筆記新增到post
