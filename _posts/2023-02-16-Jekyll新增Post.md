@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll新增Post"
 date:   2023-02-16 23:27:00 +0800
-categories: jekyll update
+categories: Jekyll
 ---
 
 [官網教學](https://www.jekyll.com.cn/docs/posts/)

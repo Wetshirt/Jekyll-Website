@@ -2,7 +2,7 @@
 layout: post
 title:  "Stable Diffusion webUI 紀錄"
 date:   2023-02-25 23:24:00 +0800
-categories: stable diffusion 
+categories: StableDiffusion 
 ---
 
 # Source
