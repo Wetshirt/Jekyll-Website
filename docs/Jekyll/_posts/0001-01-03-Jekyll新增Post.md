@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Jekyll新增Post"
-date:   2023-02-17
-categories: Jekyll
+permalink: /:categories/:title/
+index: 3
 ---
 
 [官網教學](https://www.jekyll.com.cn/docs/posts/)
