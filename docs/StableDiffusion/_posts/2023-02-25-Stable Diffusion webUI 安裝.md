@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title:  "Stable Diffusion webUI 紀錄"
 permalink: /:categories/:title/
 ---

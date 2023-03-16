@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: docs
 title:  "Jekyll新增Post"
 permalink: /:categories/:title/
-index: 3
 ---
 
 [官網教學](https://www.jekyll.com.cn/docs/posts/)

@@ -1,7 +1,3 @@
 ---
-layout: table_wrappers
+layout: doc
 ---
-<html>
-
-
-</html>

@@ -1,16 +1,90 @@
----
-layout: default
----
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<h1>{{page.categories.last}}</h1>
-{% for post in site.categories[{{page.categories.last}}] reversed %}
-  <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-  </article>
-{% endfor %}
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
 
 
+      <!-- Sidebar -->
+      <div id="sidebar">
+        <header>
+          <a href="#">{{page.categories.last}}</a>
+        </header>
+        <ul class="nav">
+          {% for post in site.categories[{{page.categories.last}}] reversed %}
+            <li>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <main class="page-content" aria-label="Content">
+        
+          <div class="wrapper">
+            <header class="post-header"></header>
+              <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+            </header>
+            {{ content }}
+          </div>
+
+      </main>
 
 
+    {%- include footer.html -%}
 
+  </body>
 
+</html>
+
+<style>
+
+  .display-flex {
+    display: flex;
+  }
+
+  #sidebar {
+    position: fixed;
+    left: 300px;
+    width: 300px;
+    /* height: 100%; */
+    margin-left: -300px;
+    margin-top: 100px;
+    /* overflow-y: visible; */
+    background: #37474F;
+  }
+  #sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+  }
+  #sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+  }
+
+  #sidebar header a:hover {
+    color: #fff;
+  }
+
+  #sidebar .nav a{
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+    font-size: 14px;
+    padding: 16px 24px;
+  }
+
+  #sidebar .nav a:hover{
+    background: none;
+    color: #ECEFF1;
+  }
+
+  #sidebar .nav a i{
+    margin-right: 16px;
+  }
+</style>

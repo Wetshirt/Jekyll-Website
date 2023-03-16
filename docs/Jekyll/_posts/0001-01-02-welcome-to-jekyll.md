@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title:  "Welcome to Jekyll!"
 permalink: /:categories/:title/
 ---
