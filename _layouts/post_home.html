@@ -60,7 +60,7 @@
 					{% if category_name != 'docs'%}	
 						<div class="col-lg-4 col-sm-6 mb-4">
 							
-							<a href="../docs/{{ category_name }}/home" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+							<a href="../docs/{{ category_name | downcase }}/home" class="px-4 py-5 bg-white shadow text-center d-block match-height">
 								<img src = "../assets/image/{{ category_name }}.png">
 								<h3 class="mb-3 mt-0">{{ category_name }}</h3>
 								<!-- <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p> -->
