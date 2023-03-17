@@ -1,8 +1,21 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+  <head>
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+      <!-- add after bootstrap.min.css -->
+      <link
+        rel="stylesheet"
+        href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+      />
+      <!-- add after bootstrap.min.js or bootstrap.bundle.min.js -->
+      <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>  
+  </head>
+
   {%- include head.html -%}
 
-  <body>
+  <body data-spy="scroll" data-target="#toc">
 
     {%- include header.html -%}
 
@@ -21,6 +34,11 @@
         </ul>
       </div>
 
+      <!-- sidebar, which will move to the top on a small screen -->
+      <div class="col-sm-3">
+        <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+      </div>
+
       <main class="page-content" aria-label="Content">
         
           <div class="wrapper">
@@ -31,7 +49,6 @@
           </div>
 
       </main>
-
 
     {%- include footer.html -%}
 
@@ -86,5 +103,41 @@
 
   #sidebar .nav a i{
     margin-right: 16px;
+  }
+
+  .col-sm-3 {
+    position: fixed;
+    right: 200px;
+    width: 200px;
+    /* height: 100%; */
+    margin-right: -200px;
+    margin-top: 100px;
+  }
+
+  nav[data-toggle="toc"] {
+    top: 42px;
+  }
+
+  /* small screens */
+  @media (max-width: 768px) {
+    /* override stickyness so that the navigation does not follow scrolling */
+    nav[data-toggle="toc"] {
+      margin-bottom: 42px;
+      position: static;
+    }
+
+    /* PICK ONE */
+    /* don't expand nested items, which pushes down the rest of the page when navigating */
+    nav[data-toggle="toc"] .nav .active .nav {
+      display: none;
+    }
+
+    
+    /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
+    
+    nav[data-toggle='toc'] .nav .nav {
+      display: block;
+    }
+    
   }
 </style>
