@@ -72,7 +72,7 @@ def main():
 	print(files)
 
 	for f in files:
-		fileTransformer(os.path.join(currentPath, files[0]), category) 
+		fileTransformer(os.path.join(currentPath, f), category) 
     
 
 if __name__ == "__main__":
