@@ -14,6 +14,8 @@ permalink: /todo/
 - :heavy_check_mark: 修改網站的背景
 - :heavy_check_mark: 首頁加入live2D
 - :heavy_check_mark: 更新Resume
-- :x: 新增一個放leetcode的category
-- :x: categories文章改成Doc Style
+- :heavy_check_mark: categories文章改成Doc Style
 - :x: obisidian筆記新增到post
+- :x: 修正bootstrap排版在更高解析度時會破圖的情況
+- :x: 部屬到firebase
+
